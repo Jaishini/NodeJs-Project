@@ -7,10 +7,10 @@ import multerErrorHandler from '../storage/multerErrhandle.js';
 
 const router = express.Router()
 
-router.get('/',verifyToken,getUserCtrl)
-router.post('/',verifyToken,upload.array('image[]'),multerErrorHandler, userValidation,postUserCtrl)
-router.get('/:user_Insu_No',verifyToken, getByNumUserCtrl)
-router.put('/:user_Insu_No',verifyToken, updateUserCtrl)
-router.delete('/:user_Insu_No',verifyToken, deleteUserCtrl)
+router.get('/', verifyToken, getUserCtrl)
+router.post('/', verifyToken, upload.array('image[]'), multerErrorHandler, userValidation, postUserCtrl)
+router.get('/:user_Insu_No', verifyToken, getByNumUserCtrl)
+router.put('/:user_Insu_No', verifyToken, updateUserCtrl)
+router.delete('/:user_Insu_No', verifyToken, deleteUserCtrl)
 
 export default router
