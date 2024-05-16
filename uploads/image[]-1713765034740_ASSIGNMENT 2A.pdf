@@ -1,0 +1,23 @@
+                                                        ASSIGNMENT - 2A
+Q1: Create a table ‘Customers with below columns
+ 
+Q2: Create a table ‘Order Details’ with below columns
+ 
+
+Q3: Add one more column to ‘Employees’ table – Created_date which should have the 
+datatype to store date and time. Default value must be current date.
+ 
+Q4: Modify the length of ‘LastName’ column from 40 to 50 in ‘Employees’ table.
+ 
+Q5:Add one column to ‘Orders’ table as ‘Status’ default value as active.
+ 
+Q6: . Drop below columns from corresponding tables
+A. ‘Status’ from ‘Orders’ table
+ 
+b. ‘Created_date’ from ‘Employees’ table
+ 
+
+
+
+
+
