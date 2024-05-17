@@ -23,7 +23,7 @@ app.use('/uploads',express.static('uploads'))
 
 const limiter = rateLimit({
     windowMs: 60 * 1000, // 1 minute
-    max: 2, // maximum number of requests allowed in the window
+    max: 50, // maximum number of requests allowed in the window
     message: 'Too many requests, please try after 1 minute.',
     header: true,
   });
